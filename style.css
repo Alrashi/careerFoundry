@@ -1,0 +1,22 @@
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace
+}
+#coursesCards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 23%;
+    background-color: brown;
+    text-align: center;
+    padding: 1,5em;
+    /* margin-bottom: 2em; */
+    margin: 2em;
+
+}
+.description{
+    font-size: larger;
+
+}
