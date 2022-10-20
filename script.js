@@ -70,7 +70,7 @@ function getDetails(){
 }
 //getting the currency and currency sign based on the geolocation
 function getCurrency(){
-        return fetch('http://api.ipstack.com/check?access_key=2e7b260da49d33d99ebaa06893ada062&fields=continent_code')
+        return fetch('http://api.ipstack.com/check?access_key=32100a13d7f2455bed7ff788c926da87&fields=continent_code')
             .then((data)=>{
                 return data.json();
             }).then((dataJson)=>{
