@@ -1,22 +1,86 @@
+body{
+    background-color: #f0f0f5;
+}
+
 .heading {
     text-align: center;
     font-size: 3rem;
     font-family: 'Courier New', Courier, monospace
 }
+
 #coursesCards{
+    background-color: #5ca2b2;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .card{
-    width: 23%;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    max-height: 14rem;
+    min-height: 14rem;
+    background-color: #c8dfff;
     text-align: center;
     padding: 1,5em;
-    /* margin-bottom: 2em; */
     margin: 2em;
-
+    border-radius: 1rem;
 }
-.description{
-    font-size: larger;
 
+.price{
+    text-decoration: underline;
+}
+
+#courseDetails{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+.courseInfo{
+    text-align: center;
+    width: 80%;
+    border-radius: 2rem;
+    background-color: white;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.cardTitle{
+    font-size: larger;
+}
+
+.moreButton{
+    cursor: pointer;
+    width: 70%;
+    height: 35px;
+    background-color: white;
+    border-color: black;
+    }
+.moreButton:hover{background-color: #c6e1e7;}
+
+.nextStartDateFormatted{
+    font-style: italic;
+}
+
+.image{
+    height: 60px;
+    width: 70px;
+}
+
+#footer{
+    clear: both;
+    background-color: #4b8896;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 30px 0 0 -8px;
+    height: 50px;
+    font-size: small;
+    color: black;
 }
