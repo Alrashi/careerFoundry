@@ -1,4 +1,4 @@
-# careerFoundry Challenge
+# CareerFoundry Challenge
 
 On this page you can see the available courses provided by the api.
 By clicking the learn more button further course information will be shown.
